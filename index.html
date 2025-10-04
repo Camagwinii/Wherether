@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Wherether : Blame It on the Weather</title>
+  </head>
+  <script>
+    window.onload = function () {
+      const hour = new Date().getHours();
+      if (hour < 12) {
+        document.title = "Wherether - Morning Forecast";
+      } else if (hour < 18) {
+        document.title = "Wherether - Afternoon Vibes";
+      } else {
+        document.title = "Wherether - Night Skies";
+      }
+    };
+  </script>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
