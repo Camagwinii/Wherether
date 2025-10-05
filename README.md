@@ -1,5 +1,5 @@
 # 🌦️ Wherether
-A modern weather dashboard using React Query, TypeScript, TailwindCSS, and Vite. Includes caching, theme detection, animated loaders, and dynamic city-based visuals.
+A modern weather dashboard using React Query, TypeScript, TailwindCSS, and Vite. Includes caching, theme detection and animated loaders.
 
 
 **Made by:** Camagwinii  
@@ -12,7 +12,7 @@ A modern weather dashboard using React Query, TypeScript, TailwindCSS, and Vite.
 
 ## Overview
 
-**Wherether** is a modern, responsive weather application built using **React, TypeScript, Vite, Tailwind CSS**, and **TanStack Query**. It provides users with detailed weather forecasts, current conditions, and a visually engaging interface that changes depending on the city selected.  
+**Wherether** is a modern, responsive weather application built using **React, TypeScript, Vite, Tailwind CSS**, and **TanStack Query**. It provides users with detailed weather forecasts, current conditions, and a visually engaging interface.  
 
 The app also features:  
 
@@ -45,9 +45,7 @@ The app also features:
 
 ---
 
-## Installation
-
-1. **Clone the repository:**
+## Installation ##
 
 ```bash``
 git clone https://github.com/Camagwiniii/wherether.git
@@ -121,4 +119,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-Made with ❤️ by Camagwinii from South Africa, Mdantsane.
+Made with ❤️ by Camagwinii from  Mdantsane, South Africa.
