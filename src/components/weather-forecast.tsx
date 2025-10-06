@@ -5,7 +5,7 @@ import type { ForecastData } from "@/api/types";
 
 interface WeatherForecastProps {
   data: ForecastData;
-}
+} 
 
 interface DailyForecast {
   date: number;
