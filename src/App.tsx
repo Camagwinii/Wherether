@@ -81,6 +81,7 @@ function App() {
           <Layout>
             <Routes>
               <Route path="/" element={<WeatherDashboard />} />
+              <Route path="/city/:cityName" element={<CityPage />} />
             </Routes>
           </Layout>
           <Toaster richColors />
